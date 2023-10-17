@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.7w;
+}
+.boxcenter {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mr {
+  margin-right: 2%;
+}
+.demo {
+  background-color: antiquewhite;
+  min-height: 100px;
+}
+.header {
+  background-color: greenyellow;
+  border: 1px green solid;
+  color: blue;
+  border-radius: 5px;
+}
+.header h1 {
+  margin: 10px 20px;
+  font-size: 1.2w;
+}
+.menu {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.boxtrai {
+  float: left;
+  width: 74%;
+}
+.boxphai {
+  float: left;
+  width: 24%;
+}
+.footer {
+  background-color: greenyellow;
+  border: 1px green solid;
+  font-size: 0.8w;
+  color: blue;
+  border-radius: 5px;
+  padding: 20px;
+}
+.boxtitle {
+  color: #333;
+  padding: 10px;
+  background-color: bisque;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.boxcontent {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+  padding: 20px;
+}
+.tien {
+  color: black;
+  font-size: 25px;
+}
+.boxcontent2 {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #eee;
+}
+.boxft {
+  padding: 10px;
+  background-color: bisque;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.banner {
+  min-height: 400px;
+  width: 100%;
+  text-align: center;
+}
+.banner img {
+  height: 400px;
+  width: 98%;
+}
+.boxsp {
+  float: left;
+  width: 32%;
+  min-height: 300px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.boxsp .img {
+  min-height: 200px;
+  text-align: center;
+}
+.img img {
+  height: 220px;
+}
+.menu ul {
+  padding: 0px 15px;
+}
+.menu ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  color: white;
+  font-size: 1.3vw;
+}
+/* box tai khoan*/
+.formtk {
+  line-height: 150%;
+}
+.formtk input[type="text"],
+.formtk input[type="password"],
+.formct input[type="text"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.formtk input[type="checkbox"] {
+  border-radius: 5px;
+}
+.formtk input[type="submit"],
+.formct input[type="submit"],
+.formct input[type="reset"],
+.formct input[type="button"] {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid rgb(179, 93, 93);
+}
+.formtk input[type="submit"]:hover,
+.formct input[type="submit"]:hover,
+.formct input[type="reset"]:hover,
+.formct input[type="button"]:hover {
+  background-color: #ccc;
+}
+.formtk li a {
+  color: blue;
+  text-decoration: none;
+}
+.formtk li a:hover {
+  text-decoration: underline;
+  color: red;
+}
+/*menu doc*/
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.menudoc ul li a {
+  color: #666;
+  text-decoration: none;
+}
+.menudoc ul li:hover {
+  background-color: #ccc;
+}
+.search input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.top10 img {
+  width: 20%;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.top10 a {
+  color: #666;
+  text-decoration: none;
+}
+.top10 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.boxsp a {
+  color: black;
+  text-decoration: none;
+}
+/*admin*/
+.headeradmin {
+  background-color: rgb(108, 108, 216);
+  border: 1px #ccc solid;
+  color: blue;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.headeradmin h1 {
+  font-size: 2vw;
+}
+.formtitle {
+  background-color: rgb(152, 152, 215);
+  border: 1px #ccc solid;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.formct {
+  padding: 20px 0;
+}
+.formdslh table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formtrc table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formdshh table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formdsbl table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formctbl table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formdsdh table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formdslh table th:nth-child(1) {
+  width: 10%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdslh table th:nth-child(2) {
+  width: 30%;
+
+  background-color: #ccc;
+}
+.formdslh table th:nth-child(3) {
+  width: 40%;
+
+  background-color: #ccc;
+}
+.formdslh table th:nth-child(4) {
+  width: 20%;
+
+  background-color: #ccc;
+}
+.formdslh table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.formtrc table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.formdsdh table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+/*form dshh*/
+.formdshh table th:nth-child(1) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(2) {
+  width: 5%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(3) {
+  width: 30%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(4) {
+  width: 10%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(5) {
+  width: 10%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(6) {
+  width: 10%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(7) {
+  width: 15%;
+
+  background-color: #ccc;
+}
+.formdshh table th:nth-child(8) {
+  width: 15%;
+
+  background-color: #ccc;
+}
+.formdshh table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.formdshh input {
+  background-color: white;
+}
+.formdshh input:hover {
+  background-color: #ccc;
+}
+
+/*form dsbl*/
+.formdsbl table th:nth-child(1) {
+  width: 30%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsbl table th:nth-child(2) {
+  width: 10%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsbl table th:nth-child(3) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsbl table th:nth-child(4) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsbl table th:nth-child(5) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsbl table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.formdsbl table input {
+  margin-left: 30px;
+}
+.formdsbl table input:hover {
+  background-color: #666;
+  opacity: 1;
+}
+
+/*form ctbl*/
+.formctbl table th:nth-child(1) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formctbl table th:nth-child(2) {
+  width: 45%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formctbl table th:nth-child(3) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formctbl table th:nth-child(4) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formctbl table th:nth-child(5) {
+  width: 10%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formctbl table td {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+/*form dsdh*/
+.formdsdh table th:nth-child(1) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(2) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(3) {
+  width: 30%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(4) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(5) {
+  width: 15%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(6) {
+  width: 25%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formdsdh table th:nth-child(7) {
+  width: 15%;
+  padding: 20px;
+  background-color: #ccc;
+}
+/*form trchu*/
+.formtrc table th:nth-child(1) {
+  width: 5%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formtrc table th:nth-child(2) {
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formtrc table th:nth-child(3) {
+  width: 10%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formtrc table th:nth-child(4) {
+  width: 15%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formtrc table th:nth-child(5) {
+  width: 15%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.formtrc table th:nth-child(6) {
+  width: 15%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.boxtr {
+  float: left;
+  width: 33%;
+}
+
+.mhh {
+  margin-top: 20px;
+}
+.hdb {
+  border: 1px solid #ccc;
+  width: 250px;
+}
+.boxtr p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.boxtr form {
+  width: 100%;
+}
+.mt {
+  font-size: 20px;
+  font-weight: bold;
+}
+.boxkh {
+  float: left;
+  width: 47%;
+}
+.kh {
+  margin-right: 3%;
+}
+.khk input {
+  padding: 10px 15px;
+}
+.khk input:hover {
+  background-color: #eee;
+}
+.formhh,
+.formkh {
+  margin-top: 30px;
+}
+.tenhh {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+}
